@@ -1,0 +1,91 @@
+#input-form{
+    display: flex;
+    width: 75%;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    padding-left: 4vw;   
+}
+
+.table{
+    border-radius: 25%;
+}
+
+.input-form label {
+    margin-top: 3vh;
+    margin-right: 1vw;
+    font-size: 4vh;
+    font-family: 'High Tower Text', 'Tahoma', 'Arial';
+}
+
+.input-form input{
+    margin-top: 3vh;
+    margin-right: 3vw;
+    padding: 1vw;
+    height: 4.5vh;
+    text-align: center;
+    background: #f2d6cc;
+    border: 3px solid black;
+    border-radius: 12px;
+    font-family: 'High Tower Text', 'Tahoma', 'Arial';
+}
+
+#season{
+    width: 8vw;
+    min-width: 40px;
+    font-size: 3vh;  
+}
+
+#round{
+    width: 5vw;
+    min-width: 25px;
+    font-size: 3vh;
+}
+
+#submit-button{
+    height: 7vh;
+    width: 20vw;
+    margin-top: 3vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    border: 0.5vh solid black;
+    border-radius: 12px;
+    background: linear-gradient(to left, rgb(52, 49, 49), red);
+    color: #E8F0FE;
+    font-family: 'High Tower Text', 'Tahoma', 'Arial';
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+
+#clear-button{
+    margin-top: 3vh;
+    width: 12vw;
+    border: 0.5vh solid black;
+    border-radius: 12px;
+    /* background: linear-gradient(to top right, rgb(52, 49, 49), red); */
+    background: linear-gradient(to right, rgb(52, 49, 49), red);
+    color: #E8F0FE;
+    font-family: 'High Tower Text', 'Tahoma', 'Arial';
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+#data-table{
+    width: 75%;
+    font-family: 'High Tower Text', 'Tahoma', 'Arial'; 
+}
+
+#data-table th{
+    background-color: rgb(142, 140, 140);
+    font-size: 3vh; 
+}
+
+#data-table tr{
+    font-size: 2.8vh;
+}
+
+.driver-table{
+    display: flex;
+    justify-content: center;
+}
